@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:BannerView="http://schemas.android.com/apk/lib/com.smaato.soma"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="90sp"
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:focusable="true"
+        android:singleLine="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/app_name"       
+        android:paddingTop="1dp"/>
+
+<ScrollView
+    android:id="@+id/ScrlView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/textTitle" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:orientation="vertical" >
+        
+        <TextView
+	        android:id="@+id/textStart"
+	        android:text="@string/main_textSubtTitle_text"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@android:color/white"
+	        android:textSize="50sp"/>
+
+        <Button
+            android:id="@+id/btnFeed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="left"
+            android:text="@string/feedTitle"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:paddingTop="5dp" 
+            android:paddingBottom="5dp"/>
+
+        <Button
+            android:id="@+id/btnEpList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="left"
+            android:text="@string/main_btnEpList_text"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:paddingTop="5dp" 
+            android:paddingBottom="5dp" />
+
+        <Button
+            android:id="@+id/btnERad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="left"
+            android:text="@string/efrradiotitle"
+            android:textColor="@android:color/white"
+            android:textSize="30sp" 
+            android:paddingTop="5dp" 
+            android:paddingBottom="5dp"/>
+        <Button
+            android:id="@+id/btnSRad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="left"
+            android:text="@string/srbradiotitle"
+            android:textColor="@android:color/white"
+            android:textSize="30sp" 
+            android:paddingTop="5dp" 
+            android:paddingBottom="5dp"/>
+        <Button
+            android:id="@+id/btnsample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Pager"
+            android:textColor="@android:color/white"
+            android:textSize="30sp" 
+            android:paddingTop="5dp" 
+            android:paddingBottom="5dp"/>
+    </LinearLayout>
+    
+</ScrollView>
+
+<FrameLayout
+    android:id="@+id/MLHbannerFragment"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"  >
+    
+    <com.smaato.soma.BannerView
+	    android:id="@+id/MLHBannerView"
+	    android:layout_width="fill_parent"
+	    android:layout_height="50dip"
+	   	BannerView:loadNewBanner="false">
+	</com.smaato.soma.BannerView>
+</FrameLayout>
+
+
+
+</RelativeLayout>

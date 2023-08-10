@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/options"
+        android:layout_gravity="left"
+		android:textSize="45dp"
+		android:paddingLeft="10dp"
+		android:textColor="@android:color/white" />
+    
+    <ScrollView android:id="@+id/ScrlView" android:layout_width="fill_parent" android:layout_height="fill_parent" >
+        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:orientation="vertical" >
+
+        
+        <Button
+            android:id="@+id/btnBackgrounds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="left"
+            android:text="@string/background"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:paddingTop="5dp" 
+            android:paddingBottom="5dp" 
+            android:onClick="btnBackgrounds"/>
+        
+        <Button
+            android:id="@+id/btnSetFeed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="left"
+            android:text="@string/feedOP"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:paddingTop="5dp" 
+            android:paddingBottom="5dp"
+            android:onClick="btnSetFeed"/>
+
+        
+    </LinearLayout>
+    
+</ScrollView>
+    
+
+</LinearLayout>

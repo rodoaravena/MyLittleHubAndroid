@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/mlh_feeds_widget_newswidget"
+    android:minWidth="110dip"
+    android:minHeight="110dip"
+    android:label="@string/feedTitle"
+    android:updatePeriodMillis="3600000"
+    android:configure="net.MLPHUB.teamMLH.Feeds.Widget.WidgetConfig"
+/>

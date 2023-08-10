@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+	 <item android:id="@+id/reload00" 
+	      android:title="@string/all"></item>  
+	       
+	 <item android:id="@+id/reload01" 
+	       android:title="@string/season1"></item>  
+	        
+	 <item android:id="@+id/reload02" 
+	       android:title="@string/season2"></item>   
+	       
+	 <item android:id="@+id/reload03" 
+	       android:title="@string/season3"></item>  
+</menu>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    android:layout_height="180dp"
+    android:background="#000000"
+    android:padding="10dp" 
+    android:layout_margin="5dp" >
+
+    	<LinearLayout android:id="@+id/FrmWidget"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#FFFFFF"
+            android:padding="5dp"
+            android:orientation="vertical">
+ 
+            <TextView android:id="@+id/LblMensaje"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="" />
+ 
+            <TextView android:id="@+id/LblHora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="" />
+ 
+            <Button
+                android:id="@+id/BtnActualizar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Actualizar"
+                android:textColor="#000000" />
+ 
+        </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/episodeTitle"
+        android:layout_width= "match_parent"
+        android:layout_height="wrap_content"
+        android:text="tituloEpisodio"
+        android:textSize="40dp" 
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:focusable="true"
+        android:singleLine="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:textColor="@android:color/white"/>
+    
+	<ScrollView android:id="@+id/ScrlView" 
+        		android:layout_width="fill_parent" 
+        		android:layout_height="fill_parent"
+        		android:layout_marginBottom="50dp" >
+
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center" 
+	        android:orientation="vertical" >
+	
+	        <ImageView
+	            android:id="@+id/episodeImage"
+	            android:layout_width="300dp"
+	            android:layout_height="168dp"  
+	            android:background="@drawable/nopicture"/>
+	
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" >
+	        
+		        <TextView
+		            android:id="@+id/dir"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="left"
+		            android:text="@string/dir"
+		            android:textAppearance="?android:attr/textAppearanceSmall" />
+		        
+		        <TextView
+		            android:id="@+id/sps"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text=" "
+		            android:textAppearance="?android:attr/textAppearanceSmall" />
+		
+		      
+		        <TextView
+		            android:id="@+id/episodeDirector"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textAppearance="?android:attr/textAppearanceSmall" 
+		            android:text="direcor"/>
+	
+			</LinearLayout>
+	
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" >
+	    
+		        <TextView
+		            android:id="@+id/wri"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="left"
+		            android:text="@string/writer"
+		            android:textAppearance="?android:attr/textAppearanceSmall" />
+		        
+		        <TextView
+		            android:id="@+id/sps"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text=" "
+		            android:textAppearance="?android:attr/textAppearanceSmall" />
+		        
+		        <TextView
+		            android:id="@+id/episodeWriter"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textAppearance="?android:attr/textAppearanceSmall" 
+		            android:text="writer"/>
+	     	</LinearLayout>
+	     	
+		    <!-- Tabla contador -->
+		    
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical" >
+	    
+		        <TextView
+		            android:id="@+id/wri"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="left"
+		            android:text="@string/msgCountdown"
+		            android:textAppearance="?android:attr/textAppearanceLarge" />
+		        <TableLayout
+			        android:id="@+id/countdownPony"
+			        android:layout_width="wrap_content"
+			        android:layout_height="match_parent"
+			        android:layout_gravity="center_horizontal"
+			        android:padding="5dp" >
+			
+			     <TableRow android:layout_height="wrap_content">
+			         <TextView
+			             android:id="@+id/dias"
+			             android:text="@string/l"
+			             android:layout_height="wrap_content"
+			             android:layout_gravity="center"/>
+			         <TextView
+			             android:text=" : "
+			             android:layout_height="wrap_content"
+			             android:layout_gravity="center"/>
+			         <TextView
+			             android:id="@+id/horas"
+			             android:text="@string/l"
+			             android:layout_height="wrap_content"
+			             android:layout_gravity="center"/>
+			         <TextView
+			             android:text=" : "
+			             android:layout_height="wrap_content"
+			             android:layout_gravity="center"/>
+			         <TextView
+			             android:id="@+id/minutos"
+			             android:text="@string/l"
+			             android:layout_height="wrap_content"
+			             android:layout_gravity="center"/>
+			         <TextView
+			             android:text=" : "
+			             android:layout_height="wrap_content"
+			             android:layout_gravity="center"/>
+			         <TextView
+			             android:id="@+id/segundos"
+			             android:text="@string/l"
+			             android:layout_height="wrap_content"
+			             android:layout_gravity="center"/>
+			     </TableRow>
+			
+			     <TableRow android:layout_height="wrap_content">
+			         <TextView
+			             android:text="@string/day"
+			             android:layout_height="wrap_content"
+			             android:layout_gravity="center"/>
+			         <TextView
+			             android:text="  "
+			             android:layout_height="wrap_content"
+			             android:layout_gravity="center"/>
+			         <TextView
+			             android:text="@string/hour"
+			             android:layout_height="wrap_content"
+			             android:layout_gravity="center"/>
+			         <TextView
+			             android:text="  "
+			             android:layout_height="wrap_content"
+			             android:layout_gravity="center"/>
+			         <TextView
+			             android:text="@string/min"
+			             android:layout_height="wrap_content"
+			             android:layout_gravity="center"/>
+			         <TextView
+			             android:text="  "
+			             android:layout_height="wrap_content"
+			             android:layout_gravity="center"/>
+			         <TextView
+			             android:text="@string/sec"
+			             android:layout_height="wrap_content"
+			             android:layout_gravity="center"/>
+			     </TableRow>
+			</TableLayout>
+		        
+		       
+	     	</LinearLayout>
+		    <!-- Fin tabla contador -->
+		    
+		    <TextView
+		        android:id="@+id/episodeContent"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="left"
+		        android:gravity="clip_horizontal"
+		        android:text="sinopsis"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+	    
+	    </LinearLayout>
+	</ScrollView>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50.5dp"
+        android:layout_marginTop="-50dip"
+        android:background="#0F0F0F" >
+
+        <Button
+            android:id="@+id/girar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/btn_search"
+            android:onClick="goSearch" />
+    </RelativeLayout>
+
+</LinearLayout>

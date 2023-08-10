@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp" >
+    
+    <TextView
+        android:id="@+id/appname"
+        android:text="@string/app_name"    
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:paddingLeft="1dp" />
+
+
+    <TextView
+        android:id="@+id/contact"
+        android:text="@string/contact"    
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="50sp"
+        android:paddingLeft="1dp" 
+        android:paddingTop="6dp"/>
+
+<ScrollView
+    android:id="@+id/ScrlView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="bottom"
+			    android:orientation="vertical" >
+				    
+					    <TextView
+					        android:id="@+id/instruccion"
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"
+					        android:text="@string/instruccion"
+					        android:textSize="15sp"
+					        android:paddingBottom="5dp"
+					        android:textColor="@android:color/white" />
+
+					    <EditText
+					        android:id="@+id/bodyMail"
+					        android:layout_width="match_parent"
+					        android:layout_height="152dp"
+					        android:ems="10"
+					        android:gravity="top"
+					        android:inputType="text|textMultiLine" >
+
+					        <requestFocus />
+					    </EditText>
+					    
+					    <View 
+					        android:id="@+id/spike"
+					        android:paddingTop="7dp"
+					        android:layout_width="match_parent"
+					        android:layout_height="230dp"
+					        android:background="@drawable/spiketakealetter"/>
+					    
+					    
+		</LinearLayout>
+</ScrollView>					    
+			   			
+			   			
+		<LinearLayout 
+    		android:layout_marginTop="-50dip" 
+    		android:gravity="bottom" 
+    		android:layout_height="50.5dp" 
+    		android:layout_width="fill_parent" 
+    		android:background="@null">
+    		
+    		
+    		
+			    		<Button
+							android:id="@+id/send"
+							android:layout_width="match_parent"
+							android:layout_height="50dp"
+							android:onClick="btnSend"
+							android:text="@string/send" 
+							android:background="@drawable/button"
+			        		android:textColor="@android:color/white"/>
+
+
+        
+
+     	</LinearLayout>
+			
+		
+
+</LinearLayout>

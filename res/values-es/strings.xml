@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <string name="feedTitle">Noticias</string>
+    <string name="eqcradiotitle">Radio Equestria Chile</string>
+    <string name="epilisttitle">Guía de Episodios</string>
+    <string name="settingstitle">Opciones</string>
+	<string name="main_textSubtTitle_text">Inicio</string>	
+	<string name="main_btnEQD_text">Equestria Daily</string>
+	<string name="main_btnEQC_text">Equestria Chile</string>
+	<string name="main_btnEpList_text">Guía de Episodios</string>
+	<string name="feedOP">Noticias</string>
+	<string name="dir">Director: </string>
+	<string name="writer">Escritor: </string>
+	<string name="webSite">Sitio Web</string>
+    
+	<string name="urlBaseEQD">http://www.equestriadaily.com/</string>
+	<string name="urlBaseEQC">http://equestriachile.blogspot.com/</string>
+	<string name="urlRssEQD">http://feeds.feedburner.com/EquestriaDaily</string>
+	<string name="urlRssEQC">http://equestriachile.blogspot.com/feeds/posts/default?alt=rss</string>
+	<string name="urlEpList">http://www.ahumeniy.net/whichmlpep/Data/episodelist.es.xml</string>
+	<string name="urlThumbs">http://www.ahumeniy.net/whichmlpep/Data/Thumbs/</string>
+	<string name="urlImages">http://www.ahumeniy.net/whichmlpep/Data/Pictures/</string>
+	
+	<string name="urlFeeds">http://mlphub.ahumeniy.net/app/feeds.xml</string>
+	
+	<string name="errordered">Error al conectar verifique conexión de red</string>
+	<string name="loadWall">Cargando fondos</string>
+	<string name="setWall">Guardado</string>
+	<string name="noSetWall">No se realizaron cambios</string>
+	<string name="recargar">Recargar</string>
+	<string name="about">Acerca de</string>
+	<string name="options">Opciones</string>
+	<string name="goURL">Ir a la Página Principal</string>
+	<string name="licence">Desarrollado por Rodolfo Aravena para Equestria Chile y todos los fans de My Little Pony: Friendship is Magic</string>
+	<string name="licence2">My Little Pony: Friendship is Magic y todos sus personajes relacionados son de propiedad de Hasbro. Inc.\n\ésta aplicación no está licenciada y no tiene relación alguna con Hasbro. Inc.\n\ésta aplicación puede redirigir a, o mostrar contenido generado por la comunidad. El autor no se hace responsable de dicho contenido</string>
+	<string name="instruccion">¿Impresiones, dudas, ideas para mejorar nuestra aplicación? ¡Haznoslo saber!</string>
+	<string name="aceptar">Aceptar</string>
+	<string name="send">Enviar</string>
+	<string name="listen">Estoy escuchando</string>
+	
+	<string name="btnrandom">Aleatorio</string>
+	<string name="txtOp">Opciones</string>
+	<string name="exit">Salir</string>
+	<string name="ok">OK</string>
+	<string name="all">Todos</string>
+	<string name="season1">Temporada 1</string>
+	<string name="season2">Temporada 2</string>
+	<string name="season3">Temporada 3</string>
+	
+	<string name="atras">AtrÃ¡s</string>
+	<string name="wait">Actualizando&#8230;</string>
+	<string name="conectandoEQD">Conectando a Equestria Daily&#8230;</string>
+	<string name="conectandoEQC">Conectando a Equestria Chile&#8230;</string>
+	<string name="conectandoRadio">Cargando&#8230;</string>
+	<string name="conectandoMLH">Conectando a My Little Hub&#8230;</string>
+	<string name="conectando">Conectando a </string>
+	<string name="conectandoSer">Obteniendo lista&#8230;</string>
+	<string name="descargandofeed">Descargando noticia n° </string>
+	<string name="descargando">Recibiendo&#8230;</string>
+	<string name="descargandoepil">Obteniendo Episodios</string>
+	<string name="complete">Descarga completa</string>
+	<string name="share">Compartir</string>
+	<string name="errsong">La Radio está apagada</string>
+	<string name="from">desde</string>
+	<string name="via">vía</string>
+	<string name="on">en</string>
+    <string name="shortSeason">Temporada:</string>
+    <string name="errorEFR">No se puede capturar titulo</string>
+    <string name="errorConRadio">Error al conectar</string>
+    <string name="errorSearch">No se pudo realizar la busqueda</string>
+    <string name="MLH">Noticias MLH</string>
+    <string name="recibiendo">Recibiendo titulo&#8230;</string>
+    <string name="ingresa">Para ver la noticia completa presiona el item</string>
+    <string name="comparte">Para compartir noticia mantenga presionado el item</string>
+    <string name="play">Reproduciendo</string>
+    <string name="stop">En pausa</string>
+	<string name="background">Fondo App</string>
+	<string name="save">Aceptar</string>
+	<string name="random">Cualquiera</string>
+	<string name="def">Por defecto</string>
+	<string name="backgroundRadio">Fondo Radio</string>
+	<string name="reproduciendo">Reproduciendo</string>
+    <string name="pausa">Pausa</string>
+    <string name="detenido">Detenido</string>
+    <string name="manufacture">Equipo: </string>
+    <string name="modelo">Modelo: </string>
+</resources>

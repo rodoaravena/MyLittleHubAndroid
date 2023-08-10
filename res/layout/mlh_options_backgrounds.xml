@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="bottom">
+    
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="45dp"
+		android:paddingLeft="10dp"
+		android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:focusable="true"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+	<View
+         android:layout_width="fill_parent"
+         android:layout_height="10dp"
+         android:background="@null" /><ScrollView
+    android:id="@+id/ScrlView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none" 
+    android:layout_alignParentTop="true"
+    android:layout_marginBottom="50dip">
+    
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" 
+		        android:orientation="horizontal"
+		        android:gravity="center">
+		
+		        <Button
+		            android:id="@+id/btn_back01"
+		            android:layout_width="110dp"
+		            android:layout_height="110dp"
+		            android:text="@string/random"
+		            android:onClick="back01"
+		            android:textColor="@android:color/white"
+		            android:background="@drawable/random" />
+		        
+		        <View
+            		android:layout_width="20dp"
+            		android:layout_height="fill_parent"
+            		android:background="@null" />
+		
+		        <Button
+		            android:id="@+id/btn_back02"
+		            android:layout_width="110dp"
+		            android:layout_height="110dp"
+		            android:onClick="back02"
+		            android:text="@string/m6"
+		            android:textColor="@android:color/white"
+		            android:background="@drawable/thumb_mane6" />
+		    </LinearLayout>
+		    
+		    <View
+            		android:layout_width="fill_parent"
+            		android:layout_height="20dp"
+            		android:background="@null" />
+		    
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" 
+		        android:orientation="horizontal"
+		        android:gravity="center">
+		
+		        <Button
+		            android:id="@+id/btn_back03"
+		            android:layout_width="110dp"
+		            android:layout_height="110dp"
+		            android:text="@string/ts"
+		            android:onClick="back03"
+		            android:textColor="@android:color/white"
+		            android:background="@drawable/thumb_ts" />
+		        
+		        <View
+            		android:layout_width="20dp"
+            		android:layout_height="fill_parent"
+            		android:background="@null" />
+		
+		        <Button
+		            android:id="@+id/btn_back04"
+		            android:layout_width="110dp"
+		            android:layout_height="110dp"
+		            android:onClick="back04"
+		            android:text="@string/rr"
+		            android:textColor="@android:color/white"
+		            android:background="@drawable/thumb_rr" />
+		    </LinearLayout>
+		    
+		    <View
+            		android:layout_width="fill_parent"
+            		android:layout_height="20dp"
+            		android:background="@null" />
+		    
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" 
+		        android:orientation="horizontal"
+		        android:gravity="center">
+		
+		        <Button
+		            android:id="@+id/btn_back05"
+		            android:layout_width="110dp"
+		            android:layout_height="110dp"
+		            android:text="@string/rd"
+		            android:onClick="back05"
+		            android:textColor="@android:color/white"
+		            android:background="@drawable/thumb_rd" />
+		        
+		        <View
+            		android:layout_width="20dp"
+            		android:layout_height="fill_parent"
+            		android:background="@null" />
+		
+		        <Button
+		            android:id="@+id/btn_back06"
+		            android:layout_width="110dp"
+		            android:layout_height="110dp"
+		            android:text="@string/fs"
+		            android:onClick="back06"
+		            android:textColor="@android:color/white"
+		            android:background="@drawable/thumb_fs" />
+		    </LinearLayout>
+		    <View
+            		android:layout_width="fill_parent"
+            		android:layout_height="20dp"
+            		android:background="@null" />
+		    
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" 
+		        android:orientation="horizontal"
+		        android:gravity="center">
+		
+		        <Button
+		            android:id="@+id/btn_back07"
+		            android:layout_width="110dp"
+		            android:layout_height="110dp"
+		            android:text="@string/aj"
+		            android:onClick="back07"
+		            android:textColor="@android:color/white"
+		            android:background="@drawable/thumb_aj" />
+		        <View
+            		android:layout_width="20dp"
+            		android:layout_height="fill_parent"
+            		android:background="@null" />
+		
+		        <Button
+		            android:id="@+id/btn_back08"
+		            android:layout_width="110dp"
+		            android:layout_height="110dp"
+		            android:onClick="back08"
+		            android:text="@string/pp"
+		            android:textColor="@android:color/white"
+		            android:background="@drawable/thumb_pp" />
+		    </LinearLayout>
+		    
+		    <View
+            		android:layout_width="fill_parent"
+            		android:layout_height="20dp"
+            		android:background="@null" />
+    
+    </LinearLayout>
+</ScrollView>
+
+<RelativeLayout 
+    android:layout_marginTop="-50dip" 
+    android:gravity="bottom" 
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent" 
+    android:background="#0F0F0F">
+
+        <Button 
+            android:id="@+id/Button01" 
+            android:layout_height="50dp" 
+            android:layout_width="50dp" 
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:enabled="false"/>
+
+        <Button
+            android:id="@+id/cambio"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_alignBaseline="@+id/Button01"
+            android:layout_alignBottom="@+id/Button01"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/button"
+            android:gravity="center"
+            android:onClick="change"
+            android:text="@string/backgroundRadio"
+            android:textColor="@android:color/white" />
+
+     </RelativeLayout>
+</LinearLayout>
